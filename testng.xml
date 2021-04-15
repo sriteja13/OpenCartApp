@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name='OpenCart Test Suit' thread-count='2' parallel='tests'>
+  
+   <test name='ChromeTest'>
+   <parameter name='Browser' value='Chrome'/>
+     <classes>
+     <class name='testCases.TC_001_AccountRegistration'/>
+     </classes>
+   </test>
+   
+   <test name='EdgeTest'>
+   <parameter name='Browser' value='Edge'/>
+     <classes>
+     <class name='testCases.TC_001_AccountRegistration'/>
+     </classes>
+   </test>
+   
+   <test name='FirefoxTest'>
+   <parameter name='Browser' value='Firefox'/>
+     <classes>
+     <class name='testCases.TC_001_AccountRegistration'/>
+     </classes>
+   </test>
+   
+</suite>
